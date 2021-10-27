@@ -1,3 +1,21 @@
+// Problem link : https://leetcode.com/problems/valid-parentheses/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+class Solution
+{
+public:
+
+};
+
+int main()
+{
+    Solution s1;
+
+    return 0;
+}
+
 class Solution {
 public:
     bool isValid(string s) {
