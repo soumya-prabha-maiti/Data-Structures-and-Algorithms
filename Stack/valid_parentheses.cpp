@@ -3,19 +3,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Solution
-{
-public:
-
-};
-
-int main()
-{
-    Solution s1;
-
-    return 0;
-}
-
 class Solution {
 public:
     bool isValid(string s) {
@@ -40,3 +27,11 @@ public:
             return false;
     }
 };
+
+int main()
+{
+    Solution s1;
+    string s="[[]](){}";
+    cout<<s1.isValid(s);
+    return 0;
+}
