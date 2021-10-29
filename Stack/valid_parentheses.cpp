@@ -11,7 +11,7 @@ public:
         {
             if(s[i]=='(' || s[i]=='{' || s[i]=='[')
                 stk.push(s[i]);
-            else
+            else if(s[i]==')' || s[i]=='}' || s[i]==']')
             {
                 if(stk.empty())
                     return false;
