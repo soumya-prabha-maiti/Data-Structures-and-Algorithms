@@ -1,4 +1,5 @@
 // Problem link : https://leetcode.com/problems/valid-parentheses/
+// https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1
 
 #include<bits/stdc++.h>
 using namespace std;
